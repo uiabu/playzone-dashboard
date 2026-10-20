@@ -172,9 +172,9 @@ export interface ExpertBooking {
 export interface BannerItem {
   id: string;
   title: string;
-  subtitle: string;
+  subtitle?: string;
   badgeText?: string;
-  buttonText: string;
+  buttonText?: string;
   buttonLink: string;
   imageSrc: string;
   active: boolean;

@@ -110,6 +110,8 @@ export default function BannerModal({
     onSave(
       {
         title: title.trim(),
+        subtitle: initialBanner?.subtitle || "",
+        buttonText: initialBanner?.buttonText || "SHOP NOW →",
         buttonLink: buttonLink.trim() || "/category/cricket-bats",
         imageSrc: imageSrc.trim() || "/images/hero/build_your_kits.png",
         type,
