@@ -135,14 +135,14 @@ export interface Expert {
   price: number;
   priceUnit: "/hour" | "/match" | "/session" | "/service" | "/event";
   category:
-    | "coaching"
-    | "practice"
-    | "analysis"
-    | "officials"
-    | "ground"
-    | "fitness"
-    | "equipment"
-    | "media";
+  | "coaching"
+  | "practice"
+  | "analysis"
+  | "officials"
+  | "ground"
+  | "fitness"
+  | "equipment"
+  | "media";
   experienceYears: number;
   experienceLabel: string;
   verified: boolean;
